@@ -1,0 +1,8 @@
+# Run the program on my UBUNTU 18.04
+python3.6 real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+# Run the program on RaspberryPi
+python3.7 real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+# Run the program on RaspberryPi (Full path)
+python3.7 /home/pi/Desktop/SNSFB/real-time-object-detection/real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
